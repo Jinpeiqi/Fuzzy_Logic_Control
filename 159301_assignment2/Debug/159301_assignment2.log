@@ -1,0 +1,52 @@
+﻿Build started 2015/9/26 5:33:38.
+     1>Project "C:\Users\jinpeiqi\Desktop\yamakawa_vs\159301_assignment2\159301_assignment2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt algorithm.cpp fuzzylogic.cpp graphics.cpp main.cpp nodes.cpp sprites.cpp transform.cpp
+         transform.cpp
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\transform.cpp(14): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\transform.cpp(27): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\transform.cpp(37): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         sprites.cpp
+         nodes.cpp
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\nodes.cpp(69): warning C4101: 'n' : unreferenced local variable
+         main.cpp
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\main.cpp(163): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\main.cpp(165): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\main.cpp(190): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\main.cpp(192): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\main.cpp(205): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\main.cpp(208): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\main.cpp(211): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\main.cpp(543): warning C4101: 'e' : unreferenced local variable
+         graphics.cpp
+         fuzzylogic.cpp
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\fuzzylogic.cpp(137): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\fuzzylogic.cpp(138): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\fuzzylogic.cpp(139): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\fuzzylogic.cpp(140): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\fuzzylogic.cpp(141): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\fuzzylogic.cpp(144): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\fuzzylogic.cpp(145): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\fuzzylogic.cpp(146): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\fuzzylogic.cpp(147): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\fuzzylogic.cpp(148): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\fuzzylogic.cpp(187): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\fuzzylogic.cpp(188): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\fuzzylogic.cpp(192): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jinpeiqi\desktop\yamakawa_vs\159301_assignment2\fuzzylogic.cpp(197): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         algorithm.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jinpeiqi\Desktop\yamakawa_vs\Debug\159301_assignment2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\jinpeiqi\Desktop\yamakawa_vs\Debug\159301_assignment2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jinpeiqi\Desktop\yamakawa_vs\Debug\159301_assignment2.lib" /MACHINE:X86 Debug\algorithm.obj
+         Debug\fuzzylogic.obj
+         Debug\graphics.obj
+         Debug\main.obj
+         Debug\nodes.obj
+         Debug\sprites.obj
+         Debug\transform.obj
+         159301_assignment2.vcxproj -> C:\Users\jinpeiqi\Desktop\yamakawa_vs\Debug\159301_assignment2.exe
+     1>Done Building Project "C:\Users\jinpeiqi\Desktop\yamakawa_vs\159301_assignment2\159301_assignment2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.67
